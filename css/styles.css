@@ -380,6 +380,7 @@ body {
 .card {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 90px;
 }
 
 .card .item {
