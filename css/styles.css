@@ -392,7 +392,6 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
   background-color: var(--card-bg-color);
 }
 
@@ -427,6 +426,7 @@ body {
   font-size: 18px;
 }
 .category {
+  display: block;
   margin-top: auto;
   padding-left: 24px;
   padding-right: 24px;
