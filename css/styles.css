@@ -317,6 +317,7 @@ body {
 }
 .container-footer {
   display: flex;
+  padding-top: 45px;
 }
 .logo-footer {
   margin-bottom: 8px;
