@@ -138,7 +138,8 @@ body {
 /* hero  */
 .hero {
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 94px;
 }
 .hero-title {
   display: block;
@@ -174,17 +175,18 @@ body {
 
 /* задачи */
 .task-section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .task {
   display: flex;
   flex-wrap: wrap;
 }
-.task .item {
+.task-item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
-.task .item:nth-child(4n) {
+.task-item:nth-child(4n) {
   margin-right: 0px;
 }
 .task-icon {
@@ -204,7 +206,7 @@ body {
 
 /*  чем занимаемся */
 .trend {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .trend .title {
   margin-top: 0px;
@@ -215,16 +217,16 @@ body {
   display: flex;
 }
 
-.trend-container .item {
+.trend-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
 
-.trend-container .item:nth-child(3n) {
+.trend-item:nth-child(3n) {
   margin-right: 0px;
 }
 
-.trend .text-style {
+.caption {
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -237,7 +239,7 @@ body {
 
 /* Команда */
 .team {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   background-color: var(--different-bg-color);
 }
 .team .section-title {
@@ -269,7 +271,7 @@ body {
   margin-top: 0px;
   margin-bottom: 16px;
 
-  font-size: 16px;
+  font-sizze: 16px;
   line-height: 1.19;
   text-align: center;
 }
@@ -278,12 +280,13 @@ body {
   flex-wrap: wrap;
   margin-right: 10px;
 }
-.team-icon .item {
+.team-item {
   margin-right: 10px;
 }
 /* Клиенты */
 .partners {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .partners .section-title {
   margin-top: 0px;
@@ -296,14 +299,17 @@ body {
 
 .icon {
   display: block;
-  width: 170px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  height: 70px;
 }
-.partners-container .item {
+.partners-item {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
 }
 
-.partners-container .item:nth-child(6n) {
+.partners-item:nth-child(6n) {
   margin-right: 0px;
 }
 .icon:hover,
@@ -352,6 +358,10 @@ body {
 }
 
 /* 2020 | Developed by GoIT Students */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .developed {
   display: block;
   margin-left: auto;
@@ -394,17 +404,17 @@ body {
   margin-bottom: 90px;
 }
 
-.card .item {
+.card-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: var(--card-bg-color);
 }
 
-.card .item:nth-child(3n) {
+.card-item:nth-child(3n) {
   margin-right: 0px;
 }
-.card .item:nth-last-child(-n + 3) {
+.card-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
