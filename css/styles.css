@@ -65,12 +65,12 @@ body {
 
 /* шапка сайта */
 .header {
+  border-bottom: 1px solid #ececec;
   background-color: var(--nav-bg-color);
-  padding-top: 24px;
 }
 .main-nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .logo {
@@ -123,8 +123,6 @@ body {
 }
 .contact {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--primary-text-color);
 
@@ -254,6 +252,7 @@ body {
   display: block;
   width: calc((100% - 60px) / 4);
   margin-right: 30px;
+  padding-bottom: 24px;
   background-color: var(--nav-bg-color);
 }
 .expert:nth-child(4n) {
@@ -295,13 +294,14 @@ body {
 .partners-container {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .icon {
-  display: block;
+  display: flex;
+  min-height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  height: 70px;
 }
 .partners-item {
   width: calc((100% - 150px) / 6);
@@ -312,11 +312,9 @@ body {
   margin-right: 0px;
 }
 .icon-logo {
-  display: block;
+  flex-direction: column;
+  justify-content: center;
   margin: auto;
-  /* margin-right: auto;
-  margin-left: auto;
-   */
 }
 
 .icon:hover,
@@ -330,31 +328,38 @@ body {
 }
 .container-footer {
   display: flex;
-  padding-top: 45px;
+  padding-top: 60px;
+  align-items: baseline;
+  justify-content: space-between;
+  }
+
+.footer .logo{
+  display: block;
+  margin-bottom: 20px;
 }
+
 .logo-footer {
-  margin-bottom: 8px;
   color: var(--logo-footer-color);
 }
 .address-logo {
   margin-right: 69px;
 }
 .address-footer {
+  display: block;
+  margin-bottom: 9px;
   font-style: normal;
 }
 .contact-footer {
-  margin-top: 9px;
-  margin-bottom: 9px;
   display: block;
+  margin-bottom: 9px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 .icon-footer {
   display: flex;
+  margin-top: 20px;
 }
-.button-subs {
-  margin-left: auto;
-}
+
 .button-footer {
   display: inline-block;
   padding: 10px 29px;
@@ -365,10 +370,7 @@ body {
 }
 
 /* 2020 | Developed by GoIT Students */
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* 
 .developed {
   display: block;
   margin-left: auto;
@@ -379,9 +381,15 @@ body {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
   line-height: 2;
-  text-align: center;
+  text-align: center; */
 }
 /* Портфолио */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
 .button-container {
   display: flex;
   justify-content: center;
