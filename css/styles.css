@@ -299,7 +299,6 @@ body {
 
 .icon {
   display: block;
-
   border: 1px solid #afb1b8;
   border-radius: 4px;
   height: 70px;
@@ -312,6 +311,14 @@ body {
 .partners-item:nth-child(6n) {
   margin-right: 0px;
 }
+.icon-logo {
+  display: block;
+  margin: auto;
+  /* margin-right: auto;
+  margin-left: auto;
+   */
+}
+
 .icon:hover,
 .icon:focus {
   background-color: #2196f3;
@@ -401,7 +408,6 @@ body {
 .card {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 90px;
 }
 
 .card-item {
