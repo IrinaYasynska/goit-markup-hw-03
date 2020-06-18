@@ -46,9 +46,11 @@ body {
   padding: 0;
   list-style: none;
 }
+
 .title {
   color: var(--title-text-color);
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -68,6 +70,7 @@ body {
   border-bottom: 1px solid #ececec;
   background-color: var(--nav-bg-color);
 }
+
 .main-nav {
   display: flex;
   align-items: baseline;
@@ -80,6 +83,7 @@ body {
   font-size: 26px;
   text-decoration: none;
 }
+
 .logo-studio {
   color: var(--logo-studio-color);
 }
@@ -88,6 +92,7 @@ body {
   display: flex;
   margin-left: 85px;
 }
+
 .saite-nav .item + .item {
   margin-left: 50px;
 }
@@ -106,13 +111,16 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .current {
   color: var(--accent-color);
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
 }
+
 .address {
   display: flex;
   margin-left: auto;
@@ -121,6 +129,7 @@ body {
 .address .contact + .contact {
   margin-left: 30px;
 }
+
 .contact {
   display: block;
 
@@ -139,6 +148,7 @@ body {
   padding-top: 200px;
   padding-bottom: 94px;
 }
+
 .hero-title {
   display: block;
   margin-top: 200px;
@@ -176,27 +186,33 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .task {
   display: flex;
   flex-wrap: wrap;
 }
+
 .task-item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
+
 .task-item:nth-child(4n) {
   margin-right: 0px;
 }
+
 .task-icon {
   margin-top: 0px;
   margin-bottom: 30px;
   padding: 25px 100px;
   background-color: var(--different-bg-color);
 }
+
 .task .title {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+
 .task-description {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -206,6 +222,7 @@ body {
 .trend {
   padding-bottom: 94px;
 }
+
 .trend .title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -240,14 +257,17 @@ body {
   padding-bottom: 94px;
   background-color: var(--different-bg-color);
 }
+
 .team .section-title {
   margin: 0;
   padding-top: 94px;
   padding-bottom: 50px;
 }
+
 .team-container {
   display: flex;
 }
+
 .expert {
   display: block;
   width: calc((100% - 60px) / 4);
@@ -255,9 +275,11 @@ body {
   padding-bottom: 24px;
   background-color: var(--nav-bg-color);
 }
+
 .expert:nth-child(4n) {
   margin-right: 0px;
 }
+
 .name {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -266,35 +288,40 @@ body {
   line-height: 1.19;
   text-align: center;
 }
+
 .position {
   margin-top: 0px;
   margin-bottom: 16px;
 
-  font-sizze: 16px;
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+
 .team-icon {
   display: flex;
   flex-wrap: wrap;
   margin-right: 10px;
 }
+
 .team-item {
   margin-right: 10px;
 }
+
 /* Клиенты */
 .partners {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .partners .section-title {
   margin-top: 0px;
   margin-bottom: 50px;
 }
+
 .partners-container {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .icon {
@@ -321,19 +348,21 @@ body {
 .icon:focus {
   background-color: #2196f3;
 }
+
 /* Футер */
 .footer {
   color: var(--different-text-color);
   background-color: var(--footer-bg-color);
 }
+
 .container-footer {
   display: flex;
   padding-top: 60px;
   align-items: baseline;
   justify-content: space-between;
-  }
+}
 
-.footer .logo{
+.footer .logo {
   display: block;
   margin-bottom: 20px;
 }
@@ -341,20 +370,24 @@ body {
 .logo-footer {
   color: var(--logo-footer-color);
 }
+
 .address-logo {
   margin-right: 69px;
 }
+
 .address-footer {
   display: block;
   margin-bottom: 9px;
   font-style: normal;
 }
+
 .contact-footer {
   display: block;
   margin-bottom: 9px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .icon-footer {
   display: flex;
   margin-top: 20px;
@@ -370,6 +403,7 @@ body {
 }
 
 /* 2020 | Developed by GoIT Students */
+
 /* 
 .developed {
   display: block;
@@ -382,13 +416,12 @@ body {
   font-size: 12px;
   line-height: 2;
   text-align: center; */
-}
+
 /* Портфолио */
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 
 .button-container {
   display: flex;
@@ -408,11 +441,13 @@ body {
   font-size: 16px;
   line-height: 1.63;
 }
+
 .button:hover,
 .button:focus {
   color: var(--different-text-color);
   background-color: var(--accent-bg-color);
 }
+
 .card {
   display: flex;
   flex-wrap: wrap;
