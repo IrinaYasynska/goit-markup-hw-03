@@ -306,7 +306,7 @@ img {
 .team-icon {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 10px;
+  justify-content: center;
 }
 
 .team-item {
@@ -397,7 +397,9 @@ img {
   display: flex;
   margin-top: 20px;
 }
-
+.social-network {
+  margin-right: 10px;
+}
 .button-footer {
   display: inline-block;
   padding: 10px 29px;
