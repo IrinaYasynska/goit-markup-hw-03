@@ -495,14 +495,14 @@ img {
   letter-spacing: 0.06em;
 }
 
-.description {
+/* .description {
   margin-bottom: 4px;
   padding-left: 24px;
   padding-right: 24px;
   color: var(--different-text-color);
   background-color: rgba(33, 150, 243, 0.9);
   font-size: 18px;
-}
+} */
 .category {
   margin-top: 0px;
   margin-bottom: 20px;
