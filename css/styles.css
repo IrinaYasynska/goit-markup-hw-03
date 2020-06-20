@@ -31,6 +31,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+img {
+  display: block;
+}
 
 .container {
   margin-left: auto;
@@ -474,10 +477,16 @@ body {
 .main-card {
   display: block;
 }
+.card-container {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
 
 .portfolio .title {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 4px;
+  padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
   font-weight: 700;
