@@ -220,6 +220,7 @@ img {
   margin-bottom: 30px;
   padding: 25px 100px;
   background-color: var(--different-bg-color);
+  border-radius: 4px;
 }
 
 .task .title {
@@ -268,14 +269,14 @@ img {
 
 /* Команда */
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--different-bg-color);
 }
 
 .team .section-title {
   margin: 0;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-container {
@@ -476,7 +477,7 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  background-color: var(--card-bg-color);
+  /* background-color: var(--card-bg-color); */
 }
 
 .card-item:nth-child(3n) {
